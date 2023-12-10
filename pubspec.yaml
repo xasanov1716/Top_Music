@@ -1,0 +1,88 @@
+name: top_music
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.6
+  zoom_tap_animation: ^1.1.0
+  flutter_screenutil: ^5.8.4
+  change_app_package_name: ^1.1.0
+  shared_preferences: ^2.1.2
+  cached_network_image: ^3.2.3
+  sqflite: ^2.2.8+4
+  mask_text_input_formatter: ^2.4.0
+  lottie: ^2.6.0
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  audioplayers: ^5.1.0
+  permission_handler: ^10.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/translations/
+    - assets/music/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Montserrat-Black.ttf
+        - asset: assets/fonts/Poppins/Montserrat-BlackItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Bold.ttf
+        - asset: assets/fonts/Poppins/Montserrat-BoldItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Poppins/Montserrat-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Poppins/Montserrat-ExtraLightItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Italic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Light.ttf
+        - asset: assets/fonts/Poppins/Montserrat-LightItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Medium.ttf
+        - asset: assets/fonts/Poppins/Montserrat-MediumItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Regular.ttf
+        - asset: assets/fonts/Poppins/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Poppins/Montserrat-SemiBoldItalic.ttf
+        - asset: assets/fonts/Poppins/Montserrat-Thin.ttf
+        - asset: assets/fonts/Poppins/Montserrat-ThinItalic.ttf
+          style: italic
+
+          
+    - family: Glory
+      fonts: 
+        - asset: assets/fonts/Gilroy/Gilroy-Black.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-BlackItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Bold.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-BoldItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-ExtraBold.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Heavy.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-HeavyItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Light.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-LightItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Medium.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-MediumItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-RegularItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-SemiBold.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-SemiBoldItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-Thin.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-ThinItalic.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-UltraLight.ttf
+        - asset: assets/fonts/Gilroy/Gilroy-UltraLightItalic.ttf
+          style: italic      
